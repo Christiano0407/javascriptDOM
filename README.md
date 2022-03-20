@@ -6,7 +6,7 @@ Javascript practice and manipulation with of DOM.
 
 > Javascript Course with Platzi
 
--[Platzi](https://platzi.com/home)
+- [Platzi](https://platzi.com/home)
 
 # MIT LICENSE:
 
