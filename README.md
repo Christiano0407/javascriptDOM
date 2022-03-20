@@ -8,6 +8,20 @@ Javascript practice and manipulation with of DOM.
 
 - [Platzi](https://platzi.com/home)
 
+> MDN ( DOM)
+
+- [MDN_Library](https://developer.mozilla.org/es/)
+
+> CAn I Use
+
+- [Can I Use](https://caniuse.com/)
+
+> API DOM = WEB Api
+
+- [Rapid_API](https://rapidapi.com/hub)
+- [Axios_API](https://axios-http.com/)
+- [API_GitHub](https://github.com/topics/api)
+
 # MIT LICENSE:
 
 > MIT License
