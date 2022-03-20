@@ -61,3 +61,30 @@ img {
   background-repeat: no-repeat;
   object-fit: cover;
 }
+
+/*=sections==*/
+section {
+  width: 100%;
+}
+.dom {
+  height: 150px;
+  outline: 2px solid #000;
+}
+.sectionTwo {
+  height: 150px;
+  outline: solid 2px #131417;
+}
+/*AppendChield=*/
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.addTwo {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+.addThree {
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}

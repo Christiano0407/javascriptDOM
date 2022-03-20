@@ -54,7 +54,9 @@ Javascript practice and manipulation with of DOM.
   > parentElement.insertBefore():
 
 - parentElement.insertBefore(): Inserta nodos antes del elemento que le pasemos como referencia, este nodo de referencia tiene que ser un hijo DIRECTO del padre
+
   > parentElement.insertAdjacentElement():
+
 - parentElement.insertAdjacentElement(): Inserta nodos según las opciones que le pasemos:
   beforebegin: Lo inserta antes del nodo
   afterbegin: Lo inserta despues del nodo

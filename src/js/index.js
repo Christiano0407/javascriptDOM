@@ -18,4 +18,25 @@ console.log(array);
 
 // Part 03 ================= Add and Create Node in DOM========================== ====================>
 
+const title = document.createElement("h1");
+const texts = document.createTextNode("Hello World");
+//> >>>> ===== ===>>
+const add = document.querySelector(".add");
+const titleTwo = document.createElement("h2");
+const textTwo = document.createTextNode("Text Two");
+add.appendChild(titleTwo);
+titleTwo.appendChild(textTwo);
+const addTwo = document.querySelector(".addTwo");
+addTwo.append("Hello my friends", document.createElement("div"));
+//>>
+const addThree = document.querySelector(".addThree");
+const titleThree = document.createElement("span");
+const paragraph = document.createTextNode("Three");
+addThree.appendChild(titleThree);
+titleThree.appendChild(paragraph);
+const reference = document.querySelector("span");
+addThree.insertBefore(titleThree, reference);
+
+// ====> =======>
+
 console.groupEnd();
