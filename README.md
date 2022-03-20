@@ -38,13 +38,21 @@ Javascript practice and manipulation with of DOM.
 > createElement
 
 - createElement: Para crear una etiqueta HTML:
+
   > createTextNode
+
 - createTextNode: Para crear un texto:
+
   > parentElement.appendChild()
+
 - parentElement.appendChild(): Agrega un hijo al final algún elemento
+
   > parentElement.append()
+
 - parentElement.append(): Es la evolución de appendChild, podemos agregar más de un nodo, puedes agregar texto y… no es soportado por Internet Explorer
+
   > parentElement.insertBefore():
+
 - parentElement.insertBefore(): Inserta nodos antes del elemento que le pasemos como referencia, este nodo de referencia tiene que ser un hijo DIRECTO del padre
   > parentElement.insertAdjacentElement():
 - parentElement.insertAdjacentElement(): Inserta nodos según las opciones que le pasemos:
