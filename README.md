@@ -63,6 +63,25 @@ Javascript practice and manipulation with of DOM.
   beforeend: Lo inserta antes de donde finaliza el nodo
   afterend: Lo inserta después de donde finaliza el nodo
 
+## Otras formas de agregar
+
+> node.outerHTML
+
+- Sirve para leer HTML para leer HTML
+
+> node.innerHTML:
+
+- Sirve para escribir HTML
+
+> Alert
+
+- hack: Cuando en el inspector de elementos seleccionas un elemento y en la consola escribes $0, este te devolverá el elemento tal como si lo hubieses seleccionado con document.querySelector().
+  .
+  Aquí les dejo el playground que usó el profesor para hacer las pruebas:
+  https://codepen.io/jonalvarezz/pen/OJXeNab?editors=0110
+  .
+  El problema con estas formas de inserciones es que permiten la inserción XSS, es decir, código maligno, y cualquier usuario programador malicioso podría meter scripts molestos, imagina que cada que un usuario llegue a tu página le salga un alert… ¡Sería catastrófico! Siempre sanitiza (remover caracteres especiales) los inputs de tus usuarios
+
 # MIT LICENSE:
 
 > MIT License
