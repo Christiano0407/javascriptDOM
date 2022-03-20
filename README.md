@@ -22,6 +22,37 @@ Javascript practice and manipulation with of DOM.
 - [Axios_API](https://axios-http.com/)
 - [API_GitHub](https://github.com/topics/api)
 
+## NodeLists vs Array
+
+> NodeLists vs Array
+
+- La diferencia entre NodeList y Array, es que el NodeList carece de métodos que si están disponibles en los Arrays, pero podemos pasar esto fácilmente usando el operador de propagación.
+- Recomendación importante cada vez que obtengamos un NodeList pásemelo a Array ya que los motores de javascript como el motor V8 de google están mas optimizados para Arrays que para NodeList.
+
+## Crear y Agregar Nodos
+
+> Create Nodos DOM
+
+- Al decir “crear nodos” nos referimos a crear elementos dentro de nuestro DOM. Para ello podemos hacer uso de:
+
+> createElement
+
+- createElement: Para crear una etiqueta HTML:
+  > createTextNode
+- createTextNode: Para crear un texto:
+  > parentElement.appendChild()
+- parentElement.appendChild(): Agrega un hijo al final algún elemento
+  > parentElement.append()
+- parentElement.append(): Es la evolución de appendChild, podemos agregar más de un nodo, puedes agregar texto y… no es soportado por Internet Explorer
+  > parentElement.insertBefore():
+- parentElement.insertBefore(): Inserta nodos antes del elemento que le pasemos como referencia, este nodo de referencia tiene que ser un hijo DIRECTO del padre
+  > parentElement.insertAdjacentElement():
+- parentElement.insertAdjacentElement(): Inserta nodos según las opciones que le pasemos:
+  beforebegin: Lo inserta antes del nodo
+  afterbegin: Lo inserta despues del nodo
+  beforeend: Lo inserta antes de donde finaliza el nodo
+  afterend: Lo inserta después de donde finaliza el nodo
+
 # MIT LICENSE:
 
 > MIT License
