@@ -86,9 +86,10 @@ Javascript practice and manipulation with of DOM.
 
   > Atributos y propiedades
 
-- Básicamente un atributo es el estado inicial en nuestro HTML, es HTML solo podemos escribir atributos porque es el estado inicial con el que se renderizan y una propiedad es la variable que podemos cambiar a lo largo de la ejecución del programa mediante JavaScript, es decir, podemos acceder a dichos atributos y cambiarlo, haciendo que sean propiedades, aquí un poco más de información sobre ello.
-  .
-  Lo genial de JavaScript es que podemos cambiarlas de forma dinámica. Recordemos que JavaScript son en su mayoría objetos, por lo que los nodos HTML dentro de JavaScript son representados como objetos. Teniendo eso en cuenta, podemos acceder a cualquier atributo de dichos nodos desde HTML y cambiar sis propiedades
+- Básicamente un atributo ( al inicio) es el estado inicial en nuestro HTML, es HTML solo podemos escribir atributos porque es el estado inicial con el que se renderizan y una propiedad es la variable que podemos cambiar a lo largo de la ejecución del programa mediante JavaScript, es decir, podemos acceder a dichos atributos y cambiarlo, haciendo que sean propiedades, aquí un poco más de información sobre ello.
+
+- Las Propiedades pueden cambiar en cualquier momento.
+- Lo genial de JavaScript es que podemos cambiarlas de forma dinámica. Recordemos que JavaScript son en su mayoría objetos, por lo que los nodos HTML dentro de JavaScript son representados como objetos. Teniendo eso en cuenta, podemos acceder a cualquier atributo de dichos nodos desde HTML y cambiar sis propiedades
 
 - // Al seleccionar el nodo HTML, JavaScript lo convierte en un objeto!
   const input = document.querySelector("input")
@@ -97,6 +98,36 @@ Javascript practice and manipulation with of DOM.
   input.placeholder = "Escribe algo"
   input.value = 2
   input.type = "number"
+
+## Eliminar nodos
+
+> Eliminar nodos
+
+> parentElement.removeChild()
+> docuement.remove(): Es la evolución de removeChild
+> document.replaceChild()
+
+- Existen 3 formas de eliminar nodos en el DOM
+
+- Remove Child (1)
+
+Podemos eliminar un nodo según a un método que proviene del padre y pasamos la referencia a eliminar
+
+- padre.removeChild(nodoAEliminar)
+
+- Remove (2)
+
+Es la evolución de remove child
+No esta soportado en internet explorer
+
+- nodoAEliminar.remove()
+
+- Replace Child (3)
+
+Nos permite remplazar un nodo
+
+- padre.replaceChild(nuevoNodo, aRemplazar)
+- : Reemplaza un nodo (en pocas palabras lo elimina y mete otro)
 
 # MIT LICENSE:
 

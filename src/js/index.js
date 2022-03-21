@@ -45,4 +45,6 @@ const plus = document.createTextNode("App Plus");
 textPlus.append(innerPlus, plus);
 innerPlus.innerHTML = "<p>Yes Complement</p>";
 
+// ====> === r==== = Atributos y propiedades ===========  ======  ====== >
+
 console.groupEnd();
