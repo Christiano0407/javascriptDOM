@@ -38,5 +38,11 @@ const reference = document.querySelector("span");
 addThree.insertBefore(titleThree, reference);
 
 // ====> === Otras formas de agregar==== ============  ======  ====== >
+const textPlus = document.querySelector(".textPlus");
+console.log(textPlus);
+const innerPlus = document.createElement("h3");
+const plus = document.createTextNode("App Plus");
+textPlus.append(innerPlus, plus);
+innerPlus.innerHTML = "<p>Yes Complement</p>";
 
 console.groupEnd();
