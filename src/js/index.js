@@ -50,4 +50,29 @@ innerPlus.innerHTML = "<p>Yes Complement</p>";
 // =================Eliminar nodos ==============================>
 textPlus.removeChild(innerPlus); // rEMOVE H3
 
+// ================== Operaciones en lote ====================> ================>
+//Operador de reposo => extraer las propiedades de un objeto que no se ha construido.
+//1)
+const obj = {
+  name: "Chris",
+  age: 28,
+  country: "CDMX",
+};
+
+/* let { name, ...all } = obj;
+console.log(name, all);
+let { country, ...all } = obj;
+console.log(all); */
+
+//2)
+const obj1 = {
+  name: "Kader",
+  age: "24",
+};
+const obj2 = {
+  ...obj1,
+  country: "Turquía",
+};
+console.log(obj2);
+
 console.groupEnd();
