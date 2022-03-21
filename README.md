@@ -143,6 +143,10 @@ Nos permite remplazar un nodo
 
 ![](https://static.platzi.com/media/user_upload/Ee3PlLlUMAARqT5-3e39919b-9cc1-426f-881e-9a3b2df38c72.jpg)
 
+## fundamentos-node-platzi
+
+> Curso de fundamentos de NodeJS en Platzi
+
 # MIT LICENSE:
 
 > MIT License
