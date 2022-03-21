@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "name": "javascriptdom",
+  "description": "Javascript practice and manipulation with of DOM.",
+  "version": "1.0.0",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/javascriptDOM.git"
+  },
+  "author": "chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/javascriptDOM/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/javascriptDOM#readme"
+}
