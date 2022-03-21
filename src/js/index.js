@@ -47,4 +47,7 @@ innerPlus.innerHTML = "<p>Yes Complement</p>";
 
 // ====> === r==== = Atributos y propiedades ===========  ======  ====== >
 
+// =================Eliminar nodos ==============================>
+textPlus.removeChild(innerPlus); // rEMOVE H3
+
 console.groupEnd();
