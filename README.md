@@ -129,6 +129,20 @@ Nos permite remplazar un nodo
 - padre.replaceChild(nuevoNodo, aRemplazar)
 - : Reemplaza un nodo (en pocas palabras lo elimina y mete otro)
 
+## Operaciones en lote
+
+- ¿Qué es el Spread Operator?
+  Si te causa duda esto, no te preocupes, aquí te lo explico:
+
+- El spread operator trabaja con arreglos y objetos, cuando lo pasamos en la llamada a una función, lo que hará es deconstruir ese arreglo y lo pasará como parámetros individuales para la función… aquí un ejemplo para que me entiendas:
+
+- Esto es muy útil cuando tenemos demasiados valores, recuerda, mientras menos modifiques el DOM, más eficiente será tu programa, y recordemos que tenemos a append() que nos permite insertar múltiples elementos en el DOM en una sola llamada, ¡aprovechémoslo!
+
+- Dato curioso:
+- En algunos frameworks de JavaScript como Vue, existe una cosa llamada el Virtual DOM, no es más que un objeto JavaScript que simula al DOM real, al menos en Vue, esto tiene un proxy que está observando por cambios en ese Virtual DOM para reaccionar y renderizar solo una pequeña parte en el DOM (en lugar de reescribirlo completamente)
+
+![](https://static.platzi.com/media/user_upload/Ee3PlLlUMAARqT5-3e39919b-9cc1-426f-881e-9a3b2df38c72.jpg)
+
 # MIT LICENSE:
 
 > MIT License
