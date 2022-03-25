@@ -155,6 +155,28 @@ Nos permite remplazar un nodo
 
   ![](https://static.platzi.com/media/user_upload/global-fa55c760-fa57-43f2-a670-a86345c49c42.jpg)
 
+> Fyle System
+
+- [](https://nodejs.org/dist/latest-v12.x/docs/api/fs.html#fs_file_system)
+- nOS PERMITE ENTRAR A ARCHIVOS DE NUESTRO SISTEMA.
+- Actualmente tanto la version LTS como current agregaron la API de File System basado en promesas 😃
+- El file system provee una API para interactuar con el sistema de archivos cerca del estándar POSIX.
+  POSIX es el estándar para interfaces de comando y shell, las siglas las significan: “Interfaz de sistema operativo portátil” la X de POSIX es por UNIX.
+
+- El file system nos permite acceder archivo del sistema, leer, modificar., escribirlos, es muy útil para precompiladores, para lo que requiera hacer grabados de disco, o bases de datos en node requieren un uso intensivo de Node.Todo lo que hagamos con modulos por buenas prácticas son asincronos, pero tienen una version sincrona no recomendada pues pordría bloquear el event loop con más facilidad.
+
+Para ver más sobre la documentación de FileSystem:
+
+Ejemplo de uso de forma nativa:
+
+![](https://static.platzi.com/media/user_upload/carbon%20%281%29-f13190cd-86f1-4d80-b164-770d19f26bc0.jpg)
+
+> File System Js
+> ![](https://static.platzi.com/media/user_upload/file-system-ad3732c3-b706-4019-9287-44ca5a42ad3f.jpg)
+
+> Main Js
+> ![](https://static.platzi.com/media/user_upload/main-1508cf5a-0c4a-4e20-aaae-987b004f8e6b.jpg)
+
 # MIT LICENSE:
 
 > MIT License
