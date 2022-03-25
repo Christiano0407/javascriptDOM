@@ -146,6 +146,13 @@ Nos permite remplazar un nodo
 ## fundamentos-node-platzi
 
 > Curso de fundamentos de NodeJS en Platzi
+> Documentation Node Js
+
+- [Node Js](https://nodejs.org/api/globals.html)
+  > Globals
+- Los modulos globales son módulos del core.
+- [Globales](https://nodejs.org/api/globals.html)
+  ![](https://static.platzi.com/media/user_upload/global-fa55c760-fa57-43f2-a670-a86345c49c42.jpg)
 
 # MIT LICENSE:
 
