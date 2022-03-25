@@ -157,8 +157,9 @@ Nos permite remplazar un nodo
 
 > Fyle System
 
-- [](https://nodejs.org/dist/latest-v12.x/docs/api/fs.html#fs_file_system)
-- nOS PERMITE ENTRAR A ARCHIVOS DE NUESTRO SISTEMA.
+-[](https://nodejs.org/dist/latest-v12.x/docs/api/fs.html#fs_file_system)
+
+- NOS PERMITE ENTRAR A ARCHIVOS DE NUESTRO SISTEMA.
 - Actualmente tanto la version LTS como current agregaron la API de File System basado en promesas 😃
 - El file system provee una API para interactuar con el sistema de archivos cerca del estándar POSIX.
   POSIX es el estándar para interfaces de comando y shell, las siglas las significan: “Interfaz de sistema operativo portátil” la X de POSIX es por UNIX.
