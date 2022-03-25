@@ -152,6 +152,7 @@ Nos permite remplazar un nodo
   > Globals
 - Los modulos globales son módulos del core.
 - [Globales](https://nodejs.org/api/globals.html)
+
   ![](https://static.platzi.com/media/user_upload/global-fa55c760-fa57-43f2-a670-a86345c49c42.jpg)
 
 # MIT LICENSE:
