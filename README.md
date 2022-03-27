@@ -277,11 +277,17 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 ## Gestión de paquetes: NPM y package.json
 
-> NPM
+> NPM / Express Js / Node Js
 
 - [npm](https://www.npmjs.com/)
 - [express Js](https://expressjs.com/es/)
 - [node Js](https://nodejs.org/api/)
+
+## Construyendo módulos: Require e Import
+
+> Modules
+
+- [Webpack](https://www.npmjs.com/package/webpack)
 
 # MIT LICENSE:
 
