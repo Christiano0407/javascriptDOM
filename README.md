@@ -223,7 +223,15 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 - [MDN HTTP](https://developer.mozilla.org/es/docs/Web/HTTP);
 
-## OS
+> Express Js
+
+- [express Js](https://expressjs.com/es/)
+
+> GraphQL
+
+- [gRAPH ql](https://graphql.org/)
+
+## OS (Sistema Operativo)
 
 ![](https://static.platzi.com/media/user_upload/Unidades-de-medida-de-almacenamiento1-59bd448f-6ac5-4aca-8841-dce5e93aaf97.jpg)
 
