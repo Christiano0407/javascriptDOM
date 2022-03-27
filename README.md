@@ -288,6 +288,8 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 > Modules
 
 - [Webpack](https://www.npmjs.com/package/webpack)
+  (const fs = require("fs");
+  fs.writeFileSync(`./.env`, `API=${process.env.API}\n`);)
 
 # MIT LICENSE:
 
