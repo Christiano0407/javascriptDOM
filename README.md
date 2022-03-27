@@ -225,11 +225,11 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 > Express Js
 
-- [express Js](https://expressjs.com/es/)
+- [Express Js](https://expressjs.com/es/)
 
 > GraphQL
 
-- [gRAPH ql](https://graphql.org/)
+- [Graph QL](https://graphql.org/)
 
 ## OS (Sistema Operativo)
 
