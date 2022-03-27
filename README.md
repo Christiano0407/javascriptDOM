@@ -264,6 +264,10 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 > //\*_ os.networkInterface() >> Interfaz de Red _/
 
+## Process
+
+> //\*_==> Escuchar todos los procesos e Métodos === _/
+
 ![](https://static.platzi.com/media/user_upload/Unidades-de-medida-de-almacenamiento1-59bd448f-6ac5-4aca-8841-dce5e93aaf97.jpg)
 
 # MIT LICENSE:
