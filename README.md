@@ -239,18 +239,29 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 - const os = require("os");
 
-> //** os.arch() ==> Arquitectura ==> x64 (Bytes) \*/
-> //**os.platform() ==> Plataforma >> Si estamos en Linux, Windows, Android.... _/
+> //\*\* os.arch() ==> Arquitectura ==> x64 (Bytes) \*/
+
+> //\*\*os.platform() ==> Plataforma >> Si estamos en Linux, Windows, Android.... _/
 > //\*\*os.cpus() ==> CPU => Compu >> Acceder a la información de la CPU >> Core_/
-> //**os.spus().length \*/
-> //**os.constants > No lleva "()" >> Errores del sistema _/
-> //\*\* >>> Velocidad de la CPU _/
-> //**os.freemem >> Memoria de la CPU / Libre / Bytes de Memoria \*/
-> //**Bytes Kilobyte = 1024 bytes => kb / MB/GB*/
-> //\*\*Megabytes */
-> //**Gigabytes \*/
-> //**os.homedir() >> Dirección del Usuario / Home _/
-> //\*\*os.hostname() >> Trabajar con servidores > > Hosting _/
+
+> //\*\*os.spus().length \*/
+
+> //\*\*os.constants > No lleva "()" >> Errores del sistema \_/
+
+> //\*\* >>> Velocidad de la CPU \_/
+
+> //\*\*os.freemem >> Memoria de la CPU / Libre / Bytes de Memoria \*/
+
+> //\*_Bytes Kilobyte = 1024 bytes => kb / MB/GB_/
+
+> //\*\*Megabytes \*/
+
+> //\*\*Gigabytes \*/
+
+> //\*\*os.homedir() >> Dirección del Usuario / Home \_/
+
+> //\*\*os.hostname() >> Trabajar con servidores > > Hosting \_/
+
 > //\*_ os.networkInterface() >> Interfaz de Red _/
 
 ![](https://static.platzi.com/media/user_upload/Unidades-de-medida-de-almacenamiento1-59bd448f-6ac5-4aca-8841-dce5e93aaf97.jpg)
