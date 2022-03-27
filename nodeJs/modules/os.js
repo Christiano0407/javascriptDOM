@@ -36,3 +36,12 @@ function gb(bytes) {
 //console.log(mb(os.freemem()));
 //**Gigabytes */
 //console.log(gb(os.freemem()));
+//console.log(gb(os.totalmem()));
+//**os.homedir()  >> Dirección del Usuario  / Home */
+console.log(os.homedir());
+//**Archivos temporales */
+console.log(os.tmpdir());
+//**os.hostname()  >> Trabajar con servidores  > > Hosting  */
+console.log(os.hostname());
+//** os.networkInterface()  >>  Interfaz de Red  */
+console.log(os.networkInterfaces());
