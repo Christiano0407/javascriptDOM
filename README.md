@@ -217,6 +217,14 @@ Podemos llamar a exec para ejecuciones sencillas:
 
 Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es que obtienes mayor control del proceso, y del estado en el que se encuenta
 
+## HTTP Server
+
+- [MDN HTTP](https://developer.mozilla.org/es/docs/Web/HTTP);
+
+## OS
+
+![](https://static.platzi.com/media/user_upload/Unidades-de-medida-de-almacenamiento1-59bd448f-6ac5-4aca-8841-dce5e93aaf97.jpg)
+
 # MIT LICENSE:
 
 > MIT License
