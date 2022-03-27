@@ -5,7 +5,7 @@ const http = require("http");
 //** == Diferenciar una ruta de Otra == */
 http.createServer(router).listen(3000);
 
-//** Output ==> /hola >>> Redirección */
+//** Endpoint o Endpoints  ==> /hola >>> Redirección */
 function router(req, res) {
   console.log("Nueava Petición!");
   console.log(req.url);
