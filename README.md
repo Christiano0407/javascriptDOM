@@ -270,6 +270,17 @@ Podemos llamar a spawn para obtener el proceso: La ventaja de este enfoque es qu
 
 ![](https://static.platzi.com/media/user_upload/Unidades-de-medida-de-almacenamiento1-59bd448f-6ac5-4aca-8841-dce5e93aaf97.jpg)
 
+- El objecto process es una instancia de EventEmitter; podemos suscribirnos a el para escuchar eventos de node.
+
+- UncaughtException: Permite capturar cualquier error que no fue caputurado previamente. Esto evita que Node cierre todos los hijos al encontrar un error no manejado.
+- exit: Se ejecuta cuando node detiene el eventloop y cierra su proceso principal.
+
+## Gestión de paquetes: NPM y package.json
+
+> NPM
+
+- [npm](https://www.npmjs.com/)
+
 # MIT LICENSE:
 
 > MIT License
