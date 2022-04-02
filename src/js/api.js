@@ -1,9 +1,9 @@
 console.group("Javascript API Movies");
-// == Const e variables ===
+//**  == Const e variables === */
 
-// ==== Intersection Observer ======
+//* ==== Intersection Observer ======*
 
-// ==== API  Add Movies ===
+//* ==== API  Add Movies ===*/
 const addMovies = async () => {
   // Aync and await ==> Try e catch (siempre)
   try {
@@ -43,6 +43,6 @@ const addMovies = async () => {
 
 addMovies();
 
-// ======= Scroll Infinite = Intersection Observer ==========
+//* ======= Scroll Infinite = Intersection Observer ==========*/
 
 console.groupEnd();

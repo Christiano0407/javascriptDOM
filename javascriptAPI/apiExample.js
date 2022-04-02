@@ -110,3 +110,28 @@ getDataApiJoke(); */
 
 getDataApiJoke();
  */
+//** ========== FETCH and ASYNC ================= */
+
+const requestApi = async () => {
+  try {
+    const response = await fetch(
+      `https://rickandmortyapi.com/api/character/?page=2/`
+    );
+
+    /* const jsonResponse = await response.json();
+  console.log(jsonResponse); */
+
+    if (response.status === 200) {
+      const data = await response.json();
+      console.log(data);
+    } else if (response.status === 404) {
+      console.log("Error");
+    } else {
+      console.log(error);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+requestApi();
